@@ -27,5 +27,7 @@ npx cdk deploy \
 5. Cleanup
 
 ```bash
-npx cdk destroy
+npx cdk destroy \
+  my-stack-dev \
+  my-stack-prod
 ```
