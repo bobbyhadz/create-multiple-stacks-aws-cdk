@@ -3,6 +3,8 @@
 A repository for an article on
 [bobbyhadz.com](https://bobbyhadz.com/blog/create-multiple-stacks-aws-cdk)
 
+> If you use CDK v1, switch to the cdk-v1 branch
+
 ## How to Use
 
 1. Clone the repository
@@ -16,7 +18,7 @@ npm install
 3. Create the CDK stack
 
 ```bash
-npx cdk deploy \
+npx aws-cdk deploy \
   my-stack-dev \
   my-stack-prod
 ```
@@ -27,7 +29,7 @@ npx cdk deploy \
 5. Cleanup
 
 ```bash
-npx cdk destroy \
+npx aws-cdk destroy \
   my-stack-dev \
   my-stack-prod
 ```

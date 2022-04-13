@@ -1,5 +1,5 @@
-import * as dynamodb from '@aws-cdk/aws-dynamodb';
-import * as cdk from '@aws-cdk/core';
+import * as dynamodb from 'aws-cdk-lib/aws-dynamodb';
+import * as cdk from 'aws-cdk-lib';
 
 // 👇 extend the StackProps interface
 interface MyCdkStackProps extends cdk.StackProps {
