@@ -1,7 +1,7 @@
 # How to create multiple stacks and environments in a CDK App
 
 A repository for an article on
-[bobbyhadz.com](https://bobbyhadz.com/blog/create-multiple-stacks-aws-cdk)
+[bobbyhadz.com](https://bobbyhadz.com/blog/aws-cdk-nested-stack)
 
 > If you use CDK v1, switch to the cdk-v1 branch
 
